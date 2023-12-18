@@ -19,10 +19,9 @@
         "source": "https://github.com/drevops/behat-phpserver"
     },
     "require": {
-        "php": ">=5.4",
-        "behat/behat": "^3.7",
-        "behat/mink-goutte-driver": "^1.2",
-        "behat/mink-extension": "^2.2"
+        "behat/mink-browserkit-driver": "^2.2",
+        "friends-of-behat/mink-extension": "^2.7",
+        "symfony/http-client": "^7.0"
     },
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
